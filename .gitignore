@@ -1,0 +1,28 @@
+# Python runtime and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Credentials and local settings
+.env
+.env.*
+*.pem
+*.key
+/publication.json
+
+# Generated data, reports and publisher workspaces
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.log
+/public/
+/publisher-work/
+/index.html
+/prices.csv
+
+# macOS
+.DS_Store
